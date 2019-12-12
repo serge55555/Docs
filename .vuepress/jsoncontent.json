@@ -1,0 +1,19 @@
+module.exports.themeConfig.locales = {
+    '/': {
+      selectText: 'Langue',
+      label: 'Français',
+      nav: [
+        { text: "Accueil", link: "/" },
+        { text: "A propos", link: "/about" }
+      ],
+    },
+  
+    '/en/' : {
+      selectText: 'Language',
+      label: 'English',
+      nav: [
+        { text: "Home", link: "/en/" },
+        { text: "About", link: "/en/about" }
+      ],
+    }
+  };
