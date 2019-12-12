@@ -6,7 +6,6 @@
 }); */
 
 module.exports = {
-  base: "/docs", // For travis to publish
   evergreen: true, // Désactive la compatibilité pour les anciens navigateurs
                   // Gain de temps en build
   dest: "docs",
